@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="text-center">
-      <h1 className="text-4xl font-bold mb-2">Welcome to Oxford College of Engineering</h1>
+      <h1 className="text-4xl font-bold mb-2">Welcome to The Oxford College of Engineering</h1>
       <h2 className="text-2xl text-gray-600 mb-6">Alumni Connect Portal</h2>
       <p className="text-xl mb-8">Stay connected with your alma mater and fellow alumni!</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
