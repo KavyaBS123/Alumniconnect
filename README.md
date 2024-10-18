@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1f75f9ed-a182-4b96-ac77-2a440a54daff)
+
 # College Alumni Connect
 
 Welcome to the **College Alumni Connect** website! This platform is designed to bridge the gap between alumni, students, and faculty members, providing a space for networking, events, and sharing professional opportunities.
@@ -55,3 +55,58 @@ The project is built using the following technologies:
    ```bash
    git clone https://github.com/yourusername/alumni-connect.git
    cd alumni-connect
+
+Install Dependencies: In both the client and server directories:
+npm install
+Create a .env File: In the root of your project, create a .env file to store your environment variables:
+
+
+MONGO_URI=your-mongo-db-url
+JWT_SECRET=your-jwt-secret
+PORT=5000
+Run the Application: Run both frontend and backend servers concurrently:
+
+
+npm run dev
+Access the Website: Open your browser and go to http://localhost:3000.
+
+## Usage
+Alumni Directory: Browse alumni profiles, search by name or field.
+Events: Check upcoming events or register for alumni meetups.
+Mentorship: Students can request mentorship from alumni.
+Job Board: Alumni can post jobs for other alumni or students to apply.
+Contributing
+We welcome contributions from the community! If you'd like to contribute:
+
+Fork this repository.
+Create a new branch for your feature or bug fix:
+
+git checkout -b feature-name
+Commit your changes:
+
+git commit -m "Add some feature"
+Push to the branch:
+
+git push origin feature-name
+Create a pull request.
+Please make sure your code is well-tested and adheres to the project’s coding standards.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+For any queries or contributions, feel free to contact us:
+
+Email: support@alumni-connect.com
+Website: www.alumni-connect.com
+
+
+
+
+
+
+
+
+
+
+
