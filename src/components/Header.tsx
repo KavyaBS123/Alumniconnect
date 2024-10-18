@@ -7,7 +7,7 @@ const Header = () => {
     <header className="bg-blue-600 text-white shadow-md">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center mb-4">
-          <Link to="/" className="text-2xl font-bold">Oxford College of Engineering</Link>
+          <Link to="/" className="text-2xl font-bold">The Oxford College of Engineering</Link>
           <Link to="/login" className="flex items-center"><LogIn className="mr-1" size={18} /> Login</Link>
         </div>
         <nav>
