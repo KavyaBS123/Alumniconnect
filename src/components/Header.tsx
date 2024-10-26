@@ -92,12 +92,12 @@ const Navbar = () => {
           icon={<Mail size={20} />} 
           text="Newsletter"
         />
-{/*        <NavItem 
+     <NavItem 
           href="/profile" 
           icon={<UserCircle2 size={20} />} 
           text="Profile"
-        />  */}
-        <li><Link to="/profile" className="flex items-center"><User className="mr-1" size={18} /> Profile</Link></li>
+        />  
+
       </nav>
     </div>
   );
