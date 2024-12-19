@@ -12,6 +12,8 @@ const Header = () => {
         </div>
         <nav>
           <ul className="flex flex-wrap justify-center space-x-4 md:space-x-6">
+           
+          
             <li><Link to="/directory" className="flex items-center"><Users className="mr-1" size={18} /> Directory</Link></li>
             <li><Link to="/events" className="flex items-center"><Calendar className="mr-1" size={18} /> Events</Link></li>
             <li><Link to="/job-board" className="flex items-center"><Briefcase className="mr-1" size={18} /> Job Board</Link></li>

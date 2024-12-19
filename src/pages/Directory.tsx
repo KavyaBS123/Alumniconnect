@@ -1,11 +1,30 @@
+import { Linkedin } from 'lucide-react';
 import React, { useState } from 'react';
 
 const Directory = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const alumni = [
-    { id: 1, name: 'John Doe', graduationYear: 2020, major: 'Computer Science' },
-    { id: 2, name: 'Jane Smith', graduationYear: 2019, major: 'Business Administration' },
-    { id: 3, name: 'Mike Johnson', graduationYear: 2021, major: 'Electrical Engineering' },
+    { id: 1, 
+      name: 'Pooja',
+      graduationYear: 2020,
+      major: 'Computer Science' ,
+      Linkedin:'https://www.linkedin.com/in/pooja-m-9419b3259'
+    },
+    { id: 2,
+     name: 'Manthan', 
+     graduationYear: 2019, 
+     major: 'Business Administration' ,
+     Linkedin:'https://www.linkedin.com/in/2004manthan-s/'},
+    { id: 3,
+     name: 'Imthiyaz', 
+     graduationYear: 2019, 
+     major: 'Masters of Business Administration', 
+      Linkedin:'https://www.linkedin.com/in/imthiyaz-k/' },
+    { id: 4,
+      name: 'Kirthi Keshav Madival', 
+      graduationYear: 2021, 
+      major: 'Electrical Engineering' ,
+      Linkedin:'https://www.linkedin.com/in/kirthi-keshav-madival-1a009225a/'},
   ];
 
   const filteredAlumni = alumni.filter(
@@ -30,9 +49,13 @@ const Directory = () => {
             <h2 className="text-xl font-semibold mb-2">{alum.name}</h2>
             <p className="text-gray-600 mb-1">Graduation Year: {alum.graduationYear}</p>
             <p className="text-gray-600 mb-2">Major: {alum.major}</p>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">
-              Connect
-            </button>
+            <a href={alum.Linkedin} target="_blank" rel="noopener noreferrer"
+            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">
+             Connect
+            </a>
+           
+             
+          
           </div>
         ))}
       </div>
